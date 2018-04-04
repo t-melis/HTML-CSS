@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" media="screen" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+    <body>
+        <header>
+            <h1 id="main_heading"> Athanasios Melistas</h1>
+        </header>
+        <div class="navbar">
+            <nav class="sidenav">
+            <ul>
+                <li><a href="#personal_info_heading"> Personal Information</a></li>
+                <li><a href="#education_heading">Education</a></li>
+                <li><a href="#professional_experience_heading">Professional Experience</a></li>
+                <li><a href="#computer_knowledge">Computer Knowledge</a></li>
+                <li><a href="#foreign_languages">Foreign Languages</a></li>
+                <li><a href="#activities_hobbies">Activities & Hobbies</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#photo_album">Photo Album</a></li>
+            </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+        
+            <h2 id="personal_info_heading">Personal Information</h2>
+            <section class="personal_info">
+                <ul>
+                    <li>Address: Chremonidoy 1</li>
+                    <li>Mobile Phone: +306948083407</li>
+                    <li>Date of Birth: 28-Sep-1990</li>
+                    <li>Nationality: Greek</li>
+                    <li>Email: thanos.melistas@gmail.com</li>
+                </ul>
+            </section>
+
+            <h2 id="education_heading">Education</h2>
+            <section class="education">
+                <p>
+                    2009-2015 <b><a href="https://www.teicrete.gr/dd/en" target="_blank">TEI of Crete - Department of Nutrition and Dietetics</a></b>
+                </p>
+                <p>
+                    2005-2008 <b>36th Senior High Schools of Athens</b>. Graduated with general mark: Very good
+                </p>
+            </section> 
+
+            <h2 id="professional_experience_heading">Professional Experience</h2>
+            <section class="professional_experience">
+                <p id="professional_experience_paragraph">
+                    I have worked as a dietitian in <a href="https://apisxnansis.gr/" target="_blank">APISHNANSIS - LOGO DIATROFIS</a> private office. I was responsible for:  
+                </p>
+                <ul>
+                    <li>Evaluation of the dietary needs of a client by assessing their health and exercise levels, sleep and food habits etc.</li>
+                    <li>Clarify information to clients and explain the effects of nutrients on overall health condition</li>
+                    <li>Offer counseling and suggest positive alterations in nutrition to address clients’ dietary restrictions</li>
+                    <li>Create full and personalized nutrition plans that promote healthy lifestyles</li>
+                    <li>Set clear objectives and provide support to clients to help them in their progress</li>
+                    <li>Conduct scientific research to expand field related knowledge such as the impacts of nutrients, the benefits of diets to body’s functions etc.</li>
+                    <li>Write and publish articles to educate the public</li>
+                    <li>Make presentations on a variety of topics such as how nutrition affects performance in sports, schools etc.</li>
+                </ul>
+                
+            </section>
+            
+            <section class="computer_knowledge" id="computer_knowledge">
+                I hold ECDL(European Computer Driving Licence) 
+                <ul>
+                    <li>Basic Concepts of IT</li>
+                    <li>Using a computer and managing files</li>
+                    <li>Word Processing</li>
+                    <li>Spreadsheets</li>
+                    <li>Databases</li>
+                    <li>Presentation</li>
+                    <li>Information and Communication</li>
+                </ul>
+            </section>
+
+            <section class="foreign_languages" id="foreign_languages">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>Languages</td>
+                            <td>Understanding</td>
+                            <td>Oral Speech</td>
+                            <td>Writting</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>English</td>
+                            <td>Very Good</td>
+                            <td>Very Good</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr>
+                            <td>Greek</td>
+                            <td>Excellent</td>
+                            <td>Native Speaker</td>
+                            <td>Excellent</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="activities" id="activities_hobbies">
+                <h2>Activities and Hobbies</h2>
+                <img src="http://www.bjj-usa.com/wp-content/uploads/2017/03/Fist-Bump.jpg" width="100%">
+                I like BJJ a lot, I've been competing over the last 2 years and i was able to succeed twice. <br>
+                First time as 2nd panhellenic champion and second time as third. ALthough i couldnt make any better because i had to limit my trainings.
+            </section> 
+            
+            <section class=register id="register">
+                <h2>Register</h2>
+                <form>
+                    <label for="first-name">First Name: </label>
+                    <input name="first-name" id="first-name" type="text" placeholder="First Name" required> <br>
+                    <label for="last-name">Last Name: </label>
+                    <input name="last-name" id="last-name" type="text" placeholder="Last Name" required ><br>
+                    <label for="gender">Gender: </label>
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female<br>
+                    <label for="email-address">Email Address</label>
+                    <input name="email-address" id="email-address" type="email" placeholder="Email Address" required><br>
+                    <label for="password">Password</label>
+                    <input name="password" id="password" type="password" minlength="5" maxlength="10" placeholder="Password" required><br>
+                    <label for="date-of-birth">Date of Birth</label>
+                    <input name="date-of-birth" id="date-of-birth" type="date" required><br>
+                    <u>I aggree to the terms and conditions</u>
+                    <input type="checkbox" required><br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+            <section id="photo_album">
+                <h2>Some nice Photos of Greece</h2>
+                <img src="https://www.slh.com/globalassets/country-pages/hero-images/greece2.jpg" alt="A nice island of Greece">
+                <img src="http://www.thesecretgreece.gr/products_img/1495784936_0_The-best-holidays-in-Greece-for-2017.jpg" alt="A nice place of Greece to visit">
+                <img src="http://hamdenregionalchamber.com/wp-content/uploads/2018/01/Greece.jpg" alt="Santorini, the best summer destination">
+                <img src="http://www.greece-is.com/wp-content/uploads/2017/10/shutterstock_215009179_meteora_snow.jpg" alt="Meteora, a nice place to visit">
+                <img src="https://kids.nationalgeographic.com/content/dam/kids/photos/Countries/A-G/greece-ruins-night.ngsversion.1396531569270.adapt.1900.1.jpg" alt="Acropolis, Greece">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGhW8o3JunGOplHVDmKxUseDYVL9_oeahi6x-bH19_YD_LI7n0" alt="A nice island of Greece">
+                <img src="http://static.in2life.gr/media/pics/pics680/1048873-plaka2016_680.jpg" alt="Plaka, a nice place of Athens">
+                <img src="http://www.sunrisemykonos.gr/wp-content/gallery/mykonos/mykonos-greece-01.jpg" alt="Sea in Greece">
+                <img src="https://s.iha.com/0013459216/Mykonos-Traditional-windmills-of-mykonos.jpeg" alt="Windmills in Greece">
+            </section>
+
+                <footer>
+                    Made by:<a href="https://github.com/thamel21" target="_blank"><i class="fa fa-github" style="font-size: 20px;"></i></a>
+                    with<i class="fa fa-coffee" style="font-size:20px;"></i><i class="fa fa-music" style="font-size:20px;"></i>
+                </footer>
+        </div>
+</html>

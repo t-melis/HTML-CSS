@@ -1,0 +1,106 @@
+body {
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+div.navbar {    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    background-color:white;
+    color: rgb(66, 8, 121);
+}
+
+#photo_album img{
+    width: 33%;
+    height: 250px;
+}
+section#photo_album h2{
+    text-align: center;
+}
+
+#main_heading{
+    padding-left: 230px;
+}
+
+.sidenav  a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav  a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sidenav li{
+    color:white;
+}
+
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+#myPhoto{
+    float: right;
+}
+footer{
+    text-align: center;
+    background-color: lightpink;
+}
+
+button{
+    border-radius: 30%;
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+
+
+h1,
+h2,
+h3
+{
+    color:white;
+    font-family: 'Tangerine';
+    text-shadow: rebeccapurple;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table{
+    border: 2px solid black;
+    margin-left: 350px;
+}
+thead{
+    text-align: center;
+    background: white;
+    font-weight: bold;
+}
+td{
+    text-align: center;
+}
+
+

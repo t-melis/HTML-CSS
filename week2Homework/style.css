@@ -62,7 +62,7 @@ ul li:nth-child(even) p{
     }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:420px){
     ul li:first-of-type{
         width: 100%;
     }
@@ -70,5 +70,3 @@ ul li:nth-child(even) p{
         width: 45%;
     }
 }
-
- 

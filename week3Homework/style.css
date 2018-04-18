@@ -1,20 +1,134 @@
+/* body{
+    background-image: url("https://cdn.wccftech.com/wp-content/uploads/2016/11/super-mario-galaxy-3-nintendo-switch-sunshine-hd.jpg");
+} */
+.container-fluid{
+    margin-left: 157px;
+}
+
+.container{
+    width: 60%;
+}
+/* 
 @keyframes text-animation{
-    0% {left:38%}
+    0% {left:30%}
     25% {left: 0%}
-    50% {left: -36%}
+    50% {left: -30%}
     75% {left: 0%}
+} */
+
+#quote{
+    margin: 0 auto;
 }
 
-
-#position{
+nav{
+    margin: 0 auto;
+}
+.jumbotron{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.circles{
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
-h1{
-    position: relative;
-    animation-name: text-animation;
-    animation-duration: 10s;
+.loader{
+    margin: 50px auto;
+    border: 16px solid #bdc3c7;
+    width: 120px;
+    height: 120px;
+    border-top-color: #1abc9c;
+    border-bottom-color: #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
 }
 
+.square{
+    margin: 10px;
+    width: 50px;
+    padding: 50px;
+    background: #1abc9c;
+    /* animation: animation-forward 10s ease-out; */
+    z-index: 1;
+}
+
+.circle{
+    width: 50px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: #1abc9c;
+}
+
+.flex-container {
+    background: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.loader2{
+    margin: 50px auto;
+    border: 16px solid #bdc3c7;
+    width: 120px;
+    height: 120px;
+    border-top-color: #1abc9c;
+    border-bottom-color: #3498db;
+    border-radius: 50%;
+    animation: spincolors 4s linear infinite;
+}
+
+table {
+	margin: 30px auto;
+	border-collapse: collapse;
+	background: black;
+}
+td {
+    width: 100px; height: 100px;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+	background: white;
+}
+
+
+#quoteButton{
+    margin: 15px 318px;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spincolors{
+    0%{
+        transform: rotate(0deg);
+        border-top-color: #1abc9c;
+        border-bottom-color: #1abc9c;
+    }
+    25%{
+        border-top-color: #3498db;
+        border-bottom-color: #3498db; 
+    }
+    50%{
+        transform: rotate(360deg);
+        border-top-color: #db34b1;
+        border-bottom-color: #db34b1;
+    }
+    75%{
+        border-top-color: #6dbb08;
+        border-bottom-color: #6dbb08;
+    }
+    100%{
+        border-top-color: #e0d20d;
+        border-bottom-color: #e0d20d;
+        transform: rotate(720deg);
+    }
+}

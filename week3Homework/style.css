@@ -4,7 +4,17 @@
 .container-fluid{
     margin-left: 157px;
 }
+.container-fluid *{
+    width: 100%;
+}
+h1{
+    background: rgb(34, 114, 219);
+    padding: 50px;
+}
 
+ul{
+    width: 100%;
+}
 .container{
     width: 60%;
 }
@@ -92,7 +102,6 @@ td {
 tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
 	background: white;
 }
-
 
 #quoteButton{
     margin: 15px 318px;

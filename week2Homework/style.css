@@ -49,24 +49,5 @@ ul li:nth-child(even) p{
     font-weight: bold;
 }
 
-@media screen and (max-width:1055px){
 
-    ul li:first-of-type{
-        width: 45%;
-    }
-    ul li:nth-child(2){
-        width: 45%;
-    }
-    ul li{
-        width: 30%;
-    }
-}
 
-@media screen and (max-width:350px){
-    ul li:first-of-type{
-        width: 100%;
-    }
-    ul li{
-        width: 45%;
-    }
-}
